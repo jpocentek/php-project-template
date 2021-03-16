@@ -50,14 +50,18 @@
       </div>
     </nav>
 
-    <main role="main" class="container">
+    <main role="main" class="container" style="margin-top: 80px">
 
-      <div class="starter-template">
+      <div class="starter-template text-center">
         <h1>Bootstrap starter template</h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </div>
 
     </main><!-- /.container -->
+
+    <footer class="fixed-bottom text-center">
+      <address>Copyrights &copy;<?php echo date('Y') ?> <a href="#">Author</a>.</address>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -67,4 +71,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
-
